@@ -28,5 +28,5 @@ modules:
       - cp -r additional /app/bin/additional
     sources:
       - type: archive
-        url: https://github.com/Jean28518/linux-assistant/releases/download/v0.3.0/linux-assistant-bundle.zip
-        sha256: 1aafcf5e96dc7e25ae89fe1b381b65a558db9a8a7d0f7e335f983166aede9a9b
+        url: https://github.com/Jean28518/linux-assistant/releases/download/v0.4.1/linux-assistant-bundle.zip
+        sha256: ea49d1f5e6c2514ca16f0d3f7c5fc5f7b0ea2965169031f281661ec9c7952576
