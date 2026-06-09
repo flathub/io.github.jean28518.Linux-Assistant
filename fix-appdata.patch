@@ -1,0 +1,56 @@
+From e42f8e2f37053d6b786ab8f4670efc36025e778f Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Tue, 9 Jun 2026 23:42:14 +0300
+Subject: [PATCH] Fix appdata paper cuts
+
+Signed-off-by: Sabri Ünal <yakushabb@gmail.com>
+---
+ flatpak/io.github.jean28518.Linux-Assistant.metainfo.xml | 18 ++++++++----------
+ 1 file changed, 8 insertions(+), 10 deletions(-)
+
+diff --git a/flatpak/io.github.jean28518.Linux-Assistant.metainfo.xml b/flatpak/io.github.jean28518.Linux-Assistant.metainfo.xml
+index bcba903..9f90526 100644
+--- a/flatpak/io.github.jean28518.Linux-Assistant.metainfo.xml
++++ b/flatpak/io.github.jean28518.Linux-Assistant.metainfo.xml
+@@ -13,9 +13,6 @@
+ 	<control>keyboard</control>
+   </recommends>
+ 
+-  <categories>
+-	<category>Productivity</category>
+-  </categories>
+ 
+   <description>
+ 	<p>
+@@ -56,12 +53,12 @@
+   <launchable type="desktop-id">io.github.jean28518.Linux-Assistant.desktop</launchable>
+ 
+   <content_rating type="oars-1.1" />
+-  <url type="homepage">
+-	https://www.linux-assistant.org/
+-  </url>
+-  <url type="bugtracker">
+-	https://github.com/Jean28518/linux-assistant/issues
+-  </url>
++  <url type="homepage">https://www.linux-assistant.org</url>
++  <url type="bugtracker">https://github.com/Jean28518/linux-assistant/issues</url>
++  <url type="vcs-browser">https://github.com/Jean28518/linux-assistant</url>
++  <developer id="io.github.jean28518">
++    <name>Jean3219</name>
++  </developer>
+ 
+   <screenshots>
+ 	<screenshot type="default">
+@@ -81,7 +78,8 @@
+ 	</screenshot>
+   </screenshots>
+   <releases>
+-	<release date="2023-09-06" version="v0.3.0">
++    <release date="2025-06-04" version="0.6.1"/>
++    <release date="2023-09-06" version="0.3.0">
+ 	  <description>
+ 		<p>
+             Enable uninstallation of software packages.
+--
+libgit2 1.7.2
+
